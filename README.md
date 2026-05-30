@@ -8,6 +8,7 @@ This project is a cross-browser web extension (Chrome/Edge and Firefox) with no 
 
 - **Privacy Policy:** https://aaroncohen.github.io/slack-emoji-link/privacy.html
 - **Project site:** https://aaroncohen.github.io/slack-emoji-link/
+- **Store submission notes:** [docs/store-submission.md](docs/store-submission.md)
 
 ## Features
 
