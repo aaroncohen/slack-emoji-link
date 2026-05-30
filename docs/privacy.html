@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy — Slack Emoji Link</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.6;
+        max-width: 720px;
+        margin: 2rem auto;
+        padding: 0 1.25rem;
+      }
+      a { color: #4f46e5; }
+      h1, h2 { line-height: 1.25; }
+      .muted { opacity: 0.75; }
+    </style>
+  </head>
+  <body>
+    <p><a href="./index.html">← Slack Emoji Link</a></p>
+
+    <h1>Privacy Policy</h1>
+    <p class="muted">Last updated: May 30, 2026</p>
+
+    <p>
+      Slack Emoji Link (&ldquo;the extension&rdquo;) is developed by Aaron Cohen. This policy
+      describes how the extension handles information when you use it.
+    </p>
+
+    <h2>Summary</h2>
+    <ul>
+      <li>The extension has <strong>no developer-operated servers</strong>.</li>
+      <li>Slack session data stays in your browser and is used only to call Slack on your behalf.</li>
+      <li>We do not sell, rent, or share your data with third parties for marketing.</li>
+    </ul>
+
+    <h2>What the extension accesses</h2>
+    <p>To copy emoji between Slack workspaces you are logged into, the extension may access:</p>
+    <ul>
+      <li>
+        <strong>Slack session information</strong> from open Slack tabs (including workspace
+        metadata stored in browser storage and session cookies needed for authenticated Slack API
+        requests).
+      </li>
+      <li>
+        <strong>Custom emoji metadata and images</strong> from your source workspace, in order to
+        upload or alias them in your chosen destination workspace.
+      </li>
+      <li>
+        <strong>Locally stored extension data</strong> (discovered workspace list and UI state) via
+        the browser&rsquo;s extension storage APIs.
+      </li>
+    </ul>
+
+    <h2>What is stored locally</h2>
+    <p>
+      The extension stores discovered Slack workspace identifiers and related metadata in
+      <code>browser.storage.local</code> on your device so you do not have to re-detect workspaces
+      every session. This data is not transmitted to the developer.
+    </p>
+
+    <h2>What is transmitted</h2>
+    <p>
+      Network requests are made <strong>directly from your browser</strong> to Slack
+      (<code>*.slack.com</code>, <code>*.slack-edge.com</code>) using your existing login session.
+      The developer does not receive copies of those requests or responses.
+    </p>
+    <p>
+      The extension does not transmit data to analytics services, advertising networks, or other
+      third-party services operated by the developer.
+    </p>
+
+    <h2>Chrome Web Store Limited Use</h2>
+    <p>
+      If you install the extension from the Chrome Web Store, the extension&rsquo;s use of information
+      received from Slack APIs will adhere to the Chrome Web Store User Data Policy, including the
+      Limited Use requirements: data accessed via Slack is used only to provide the emoji copy
+      functionality you request, is not transferred to others except as necessary to provide or
+      improve user-facing features (direct communication with Slack using your session), and is not
+      used for personalized advertising or sold to data brokers.
+    </p>
+
+    <h2>Permissions</h2>
+    <p>The extension requests browser permissions solely to:</p>
+    <ul>
+      <li>Detect Slack workspaces from tabs you already have open</li>
+      <li>Read and upload custom emoji via Slack&rsquo;s APIs using your session</li>
+      <li>Persist discovered workspace metadata locally between sessions</li>
+    </ul>
+
+    <h2>Data retention and deletion</h2>
+    <p>
+      Local extension data remains until you remove the extension or clear extension storage in your
+      browser. Uninstalling the extension removes locally stored extension data from your browser.
+    </p>
+
+    <h2>Children</h2>
+    <p>The extension is not directed at children under 13.</p>
+
+    <h2>Changes</h2>
+    <p>
+      This policy may be updated from time to time. Material changes will be reflected by updating
+      the date above.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Questions or concerns:
+      <a href="https://github.com/aaroncohen/slack-emoji-link/issues">GitHub Issues</a>.
+    </p>
+
+    <p class="muted">
+      Not affiliated with Slack Technologies. Slack is a trademark of Slack Technologies, LLC.
+    </p>
+  </body>
+</html>

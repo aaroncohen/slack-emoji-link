@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# WXT / Vite build output
+.output/
+.wxt/
+dist/
+
+# Release artifacts
+*.zip
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# OS and editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.log
+
+# Test / cache
+coverage/
+*.tsbuildinfo
+node_modules/.cache/
+node_modules/.vite/
